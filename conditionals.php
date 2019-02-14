@@ -127,7 +127,23 @@ The referencial value will be true.
 */
 
 switch ($light) {
-        case 
+    case $redLight:
+        echo 
+}
+
+switch ($light) {
+    case $redLight || $yellowLight && $greenlight = 0: 
+        echo "Stop the car!";
+        break;
+    case $redLight || $yellowLight || $greenlight = 0:
+        echo "Power outage";
+        break;
+    case $redLight || $yellowLight = 0 && $greenlight:
+        echo "Keep moving!";
+        break;
+    case $redLight || $yellowLight && $greenlight:
+        echo "Traffic lights are messed up!";
+        break;
 }
 
 ?>
